@@ -11,11 +11,11 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Interviewer — friendly mock interview practice",
+  title: "PrepIQ — friendly mock interview practice",
   description:
     "Practice technical and product interviews with a voice-first AI coach that listens, asks follow-ups, and summarizes how you did.",
   openGraph: {
-    title: "Interviewer — friendly mock interview practice",
+    title: "PrepIQ — friendly mock interview practice",
     description:
       "Practice technical and product interviews with a voice-first AI coach that listens, asks follow-ups, and summarizes how you did.",
     type: "website",
@@ -45,8 +45,8 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
                     </span>
                   </div>
                   <div>
-                    <p className="text-lg font-semibold tracking-tight text-foreground">
-                      Interviewer
+                                        <p className="text-lg font-semibold tracking-tight text-foreground">
+                      PrepIQ
                     </p>
                     <p className="text-sm font-medium text-muted">
                       Your cozy practice studio
@@ -67,7 +67,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
 
             <footer className="border-t border-[var(--border)] bg-surface/70 backdrop-blur-sm">
               <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
-                <p>© {new Date().getFullYear()} Interviewer. Practice at your own pace.</p>
+                <p>© {new Date().getFullYear()} PrepIQ. Practice at your own pace.</p>
                 <nav aria-label="Footer" className="flex flex-wrap gap-4">
                   <Link href="/" className="font-medium text-foreground/80 transition hover:text-primary">
                     Home

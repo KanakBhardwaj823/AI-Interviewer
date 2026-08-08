@@ -6,8 +6,8 @@ export default function TermsPage() {
       <article className="card-cute mx-auto max-w-3xl p-8 sm:p-10">
         <p className="label-soft">Legal</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-foreground">Terms of use</h1>
-        <p className="prose-cute mt-4">
-          Interviewer is a practice tool. AI-generated questions and feedback are meant to help you
+                <p className="prose-cute mt-4">
+          PrepIQ is a practice tool. AI-generated questions and feedback are meant to help you
           rehearse — they are not hiring decisions, legal advice, or guaranteed interview outcomes.
         </p>
         <p className="prose-cute mt-4">
